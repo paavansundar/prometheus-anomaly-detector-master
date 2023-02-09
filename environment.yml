@@ -1,0 +1,19 @@
+---
+name: PAD
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - prophet
+  - pip:
+      - pandas
+      - schedule
+      - prometheus_client
+      - prometheus_api_client
+      - tornado
+      - dateparser
+      - mlflow
+      - numpy
+      - tensorflow >=2.0,<2.5
+      - scikit-learn
